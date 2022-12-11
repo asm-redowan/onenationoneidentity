@@ -1,0 +1,42 @@
+.messages{
+    /* border: 1px solid black; */
+    
+    width: 98%;
+    left: 0;
+    right: 20px;
+    margin: auto;
+}
+/* .messages .chat1{
+    border: 1px solid black;
+    width: 45%;
+    right: 5px;
+    position:absolute;
+} */
+.messages .incoming{
+    border: 1px solid black;
+    /* background: rgb(179, 179, 179);
+    color: rgb(255, 255, 255); */
+    width: auto;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /* top: 5px;
+    position:absolute; */
+    float: right;
+    clear: right;
+}
+.messages .outgoing{
+    border: 1px solid black;
+    width: auto;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    /* left: 5;
+    position:absolute; */
+    float: left;
+    /* overflow: auto; */
+    clear: left;
+    
+}
